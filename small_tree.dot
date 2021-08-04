@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="cylinders <= 0.5\nmse = 60.3\nsamples = 197\nvalue = 23.8"] ;
+1 [label="horsepower <= 0.2\nmse = 36.9\nsamples = 105\nvalue = 29.0"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="model year <= 0.5\nmse = 26.8\nsamples = 44\nvalue = 33.4"] ;
+1 -> 2 ;
+3 [label="mse = 10.0\nsamples = 13\nvalue = 28.7"] ;
+2 -> 3 ;
+4 [label="mse = 21.6\nsamples = 31\nvalue = 35.2"] ;
+2 -> 4 ;
+5 [label="model year <= 0.7\nmse = 15.7\nsamples = 61\nvalue = 25.3"] ;
+1 -> 5 ;
+6 [label="mse = 10.7\nsamples = 41\nvalue = 24.1"] ;
+5 -> 6 ;
+7 [label="mse = 14.0\nsamples = 20\nvalue = 28.6"] ;
+5 -> 7 ;
+8 [label="horsepower <= 0.4\nmse = 20.4\nsamples = 92\nvalue = 17.8"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="model year <= 1.0\nmse = 16.2\nsamples = 48\nvalue = 20.4"] ;
+8 -> 9 ;
+10 [label="mse = 8.2\nsamples = 46\nvalue = 19.9"] ;
+9 -> 10 ;
+11 [label="mse = 56.9\nsamples = 2\nvalue = 32.7"] ;
+9 -> 11 ;
+12 [label="model year <= 0.8\nmse = 9.2\nsamples = 44\nvalue = 14.9"] ;
+8 -> 12 ;
+13 [label="mse = 4.6\nsamples = 43\nvalue = 14.6"] ;
+12 -> 13 ;
+14 [label="mse = -0.0\nsamples = 1\nvalue = 32.7"] ;
+12 -> 14 ;
+}

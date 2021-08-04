@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body,html{
+    height: 100%;
+}
+
+.bgg{
+	background-image: url('back1.jpg');
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+  
+.container .col1{
+	background: linear-gradient(-45deg, rgb(95, 99, 95), #857e6a, #a88a36, #d4a91d);
+	border-radius: 20px;
+	width: fit-content;
+	text-align: center;
+	height: auto;
+	margin-top: 26px;
+	margin-left: 65px;
+	padding-left: 10px;
+	padding-left: 10px;
+	padding-top: 6px;
+	padding-bottom: 1px;
+	opacity: 0.7;
+}
+
+.top{
+	padding-top: 10px;
+	height: 80px;
+	text-align: center;
+}
+
+input[type=text]{
+	background-color: #dee5e5;
+}
+
+input[type=number]{
+	background-color: #dee5e5;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+p.fs-1{
+	color: white;
+	text-align: center;
+}
